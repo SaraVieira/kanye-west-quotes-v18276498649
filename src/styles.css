@@ -1,0 +1,35 @@
+body,
+html,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: rgb(233, 233, 233);
+  background: rgb(37, 35, 35);
+}
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+button {
+  display: block;
+  width: 80%;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: rgb(131, 208, 238);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  position: fixed;
+  bottom: 60px;
+}
