@@ -5,10 +5,8 @@ export default function App() {
   const [quote, setQuote] = useState()
   const getQuote = async () => {
     const data = await fetch("https://api.kanye.rest").then(rsp => rsp.json())
-
     setQuote(data.quote)
   }
-
   const getNewQuote = () => {
     setQuote(null)
     getQuote()
@@ -21,7 +19,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Hello Kanye Quotes</h1>
-      {quote ? quote : "Loading"}
+      {quote ? quote : "Rest"}
 
       <button onClick={getNewQuote}>New Quote</button>
     </div>
